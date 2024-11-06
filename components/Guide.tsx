@@ -32,13 +32,13 @@ const Guide = () => {
           className="w-full object-cover object-center 2xl:rounded-5xl"
         />
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
-          <Image 
-            src='/meter.svg'
-            alt='meter'
+          <Image
+            src="/meter.svg"
+            alt="meter"
             width={16}
             height={158}
-            className='h-full w-auto'
-          />  
+            className="h-full w-auto"
+          />
           <div className="flexBetween flex-col">
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
