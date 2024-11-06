@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Travel",
+  title: "Travel App",
   description: "Travel UI/UX App for Camping",
 };
 
@@ -15,11 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel='icon' href="./boat-icon.png" />
+      </head>
       <body>
         <Navbar />
-        <main className='relative overflow-hidden'>
-          {children}
-        </main>
+        <main className="relative overflow-hidden">{children}</main>
         <Footer />
       </body>
     </html>
